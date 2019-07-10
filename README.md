@@ -5,6 +5,7 @@
 * Model compilation
 * Model torchscript conversion
 * Model export
+* Intermediation using aiprocs lib
 * C++ serving scalable model deployment
 
 ## Setup
@@ -27,6 +28,7 @@ cd pt-model-workflow
 conda create -n ptmw python=3.6 pip
 conda activate ptmw
 conda install -c pytorch -c fastai fastai
+pip install https://github.com/krystianity/ai_procs/archive/master.zip
 # conda deactivate # in case of leaving
 ```
 
